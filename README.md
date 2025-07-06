@@ -40,3 +40,11 @@ cd skyview-xiondrey
 npm install
 npm run dev
 ```
+
+##  Code Merges
+
+```bash
+git checkout dev
+```
+
+- All code merges to be done in dev branch!
