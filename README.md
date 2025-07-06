@@ -1,12 +1,42 @@
-# React + Vite
+# ✈️ VATSIM Live Map Utility
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive web application to visualize **real-time pilots, ATC, and routes** on the [VATSIM](https://www.vatsim.net/) network. Built using **React**, **Leaflet**, and **Vite**, with support for hover tooltips, flight search, airport-to-airport routing, and map themes.
 
-Currently, two official plugins are available:
+![screenshot](./preview.png) <!-- Replace with your screenshot path -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔎 **Live VATSIM Map** with pilots and ATC positions
+- 📍 **Flight Route Visualization** from departure to arrival
+- 🧭 **Pilot & ATC Hover Tooltips** with frequency, facility, and stats
+- 🌍 **Multiple Map Themes** – Light / Dark / Satellite
+- 🔗 **Shareable Links** to individual flights via `?callsign=XXXX`
+- ✅ **Responsive & Smooth Performance** with view-based rendering
+- 📦 Built with **Vite**, **React**, and **react-leaflet**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+https://vat-skyview.netlify.app/
+
+---
+
+## 📦 Tech Stack
+
+- ⚛️ React (JSX)
+- 🗺️ React Leaflet & Leaflet.js
+- ⚡ Vite
+- 🧭 Custom Airport Database (JSON)
+- 📡 VATSIM Public API
+
+---
+
+## 🧑‍💻 Getting Started
+
+```bash
+git clone https://github.com/aditya-2403/skyview-xiondrey.git
+cd skyview-xiondrey
+npm install
+npm run dev
+```
