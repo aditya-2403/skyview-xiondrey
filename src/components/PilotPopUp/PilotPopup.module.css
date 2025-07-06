@@ -1,0 +1,8 @@
+.airlineLogo {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  border-radius: 4px;
+  padding: 5px;
+  border: 0.5px solid rgb(241, 229, 229);
+}
